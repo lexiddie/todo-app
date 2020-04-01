@@ -5,7 +5,7 @@ function ToDoList(props) {
   //   const [tasks, setTasks] = useState([]);
   const [list, setList] = useState([]);
   const uri = process.env.REACT_APP_API_URI;
-  console.log(uri);
+  // console.log(uri);
   useEffect(() => {
     fetch(`${uri}task`)
       .then(res => res.json())
