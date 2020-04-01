@@ -21,7 +21,6 @@ function ToDoList(props) {
   }, []);
   return (
     <div>
-      <h2>Things To Do</h2>
       <ul>{list}</ul>
     </div>
   );
